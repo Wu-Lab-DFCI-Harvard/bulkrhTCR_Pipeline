@@ -8,8 +8,21 @@ Python v3.9
 Numpy v1.20.1
 Panda v1.2.3
 ```
+All scripts must be in same directory for the main script to function properly. 
 
-## Main Script 
+## Scripts
+
+### Main Script 
+
+modify.py
+
+### Util Scripts 
+
+merge.py: Script to merge TRBV genes and cluster clonotypes based on J gene segments and CDR3 sequences
+
+update_umi.py: Script to remove UMIs with only one read count and remove clonotypes with no supporting UMIs
+
+generate_report.py: Script to generate a final report with UMI counts for each clonotypes 
 
 ```
 Parameters 
