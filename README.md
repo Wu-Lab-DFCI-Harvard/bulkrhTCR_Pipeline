@@ -4,9 +4,9 @@ This is the post-processing script for bulkrhTCR protocol.
 This script was written and tested in
 
 ```
-Python v3.9
-Numpy v1.20.1
-Panda v1.2.3
+python v3.9
+numpy v1.20.1
+panda v1.2.3
 ```
 All scripts must be in same directory for the main script to function properly. 
 
