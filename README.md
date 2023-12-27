@@ -19,7 +19,7 @@ Parameters
 --out_dir: Output directory
 --basename: 
 
-merge.py --TRA TRA_Report --TRB TRB_Report --out_dir output_directory --basename test
+modify.py --TRA TRA_Report --TRB TRB_Report --out_dir output_directory --basename test
 
 Output:
 
