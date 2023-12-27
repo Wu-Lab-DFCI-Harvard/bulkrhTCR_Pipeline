@@ -14,15 +14,15 @@ All scripts must be in same directory for the main script to function properly.
 
 ### Main Script 
 
-modify.py
+**modify.py:** Main Script. Takes in TRA and TRB reports generated from MiXCR's exportClonesOverlap function. Outputs final report to a specified output directory. 
 
 ### Util Scripts 
 
-merge.py: Script to merge TRBV genes and cluster clonotypes based on J gene segments and CDR3 sequences
+**merge.py:** Script to merge TRBV genes and cluster clonotypes based on J gene segments and CDR3 sequences
 
-update_umi.py: Script to remove UMIs with only one read count and remove clonotypes with no supporting UMIs
+**update_umi.py:** Script to remove UMIs with only one read count and remove clonotypes with no supporting UMIs
 
-generate_report.py: Script to generate a final report with UMI counts for each clonotypes 
+**generate_report.py:** Script to generate a final report with UMI counts for each clonotypes 
 
 ```
 Parameters 
