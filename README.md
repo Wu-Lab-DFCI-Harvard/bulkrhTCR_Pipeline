@@ -1,4 +1,4 @@
-# Postprocessing_Script
+# Post-Processing_Script
 
 This is the post-processing script for bulkrhTCR protocol. 
 This script was written and tested in
