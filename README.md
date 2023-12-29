@@ -46,8 +46,16 @@ output_directory/testCondensed_TRB_report.tsv
 
 # Final Output Examples 
 
+TRA/TRB_report.tsv File Example
+
 Columns: aaSeqCDR3, vGene, jGene, Sample1, Sample2, Sample3, Sample4, UMI_Lists, totalUMICount, Freq, replicate_frequency, Total_UMI_Over_Replicates, Unique_Clonotypes
 
 <img width="1061" alt="Screenshot 2023-12-29 at 1 20 24 PM" src="https://github.com/Wu-Lab-DFCI-Harvard/bulkrhTCR_Script/assets/53489568/34861e70-7681-484f-8d86-3c253140e08b">
+
+CondensedTRA/TRB_report.tsv File Example 
+
+Columns: aaSeqCDR3, vGene, jGene, totalUMICount, Freq, Total_UMI_Over_Replicates, Unique_Clonotypes, sampleng_RNA_used, Simpson_Clonality
+
+
 
 
