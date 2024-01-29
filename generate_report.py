@@ -2,6 +2,7 @@ import os
 import pandas as pd
 import argparse
 import numpy as np
+import math
 
 def get_fraction(num,totalUMIs):
     return num/totalUMIs;
@@ -24,16 +25,16 @@ def sum_over(df):
     return df
 
 #Generate a condensed report for a biological sample
-def simplify_report(df): 
+def simplify_report(df):
     data = df.copy()
     for column_name in df.columns:
         if 'uniqueUMICountAggregated' in column_name:
             sample_name = column_name.split('_')[0]
     #default_values
-    total = sum(data['totalUMICount'].apply(calculate_simpson))
+    fraction = data['totalUMICount']/sum(data['totalUMICount'])
     data['sample'] = sample_name
     data['ng_RNA_used'] = 80
-    data['Simpson_Clonality'] = total/(df['Total_UMI_Over_Replicates'][0]) ** 2
+    data['Simpson_Clonality'] = math.sqrt(sum((fraction) ** 2))
     data['Total_UMI_Over_Replicates'] = data['Total_UMI_Over_Replicates'][0]
     data['Unique_Clonotypes'] = data['Unique_Clonotypes'][0]
     columns_to_drop = ['uniqueUMICountAggregated','UMI_Lists', 'replicate_frequency']
