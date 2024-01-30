@@ -2,7 +2,7 @@
 
 Step 1 Running MiXCR 
 
-'''
+```
 
 mixcr analyze generic-amplicon-with-umi \
         --species hsa \
@@ -20,11 +20,11 @@ mixcr analyze generic-amplicon-with-umi \
         out_dir \
 
 
-''' 
+```
 
 Step 2 Filtering for non-functional CDR3 Sequence 
 
-'''
+```
 mixcr exportClones \
     --export-productive-clones-only \
     --filter-stops \
@@ -33,11 +33,11 @@ mixcr exportClones \
     Rep1.clns 
     Rep1.tsv
 
-'''
+```
 
 Step 3 Generating consensus clonotypes for a biological sample  
 
-'''
+```
 
 mixcr exportClonesOverlap \
     -tagCounts \ 
@@ -47,7 +47,7 @@ mixcr exportClonesOverlap \
     Rep1.clns Rep2.clns Rep3.clns Rep4.clns \
     final_TCR_report.tsv
     
-'''
+```
 
 # Post-Processing Script
 
