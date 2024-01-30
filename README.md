@@ -113,4 +113,15 @@ Columns: aaSeqCDR3, vGene, jGene, totalUMICount, Freq, Total_UMI_Over_Replicates
 <img width="1057" alt="Screenshot 2023-12-29 at 1 52 12 PM" src="https://github.com/Wu-Lab-DFCI-Harvard/bulkrhTCR_Script/assets/53489568/d4608d99-06ae-4365-817b-cefbce721f7b">
 
 
+# Visualization Script 
+
+```
+Rscript visualize_clonotype_counts.R test_TRA_report.tsv test_TRB_report.tsv output_directory test
+```
+
+## Output Examples 
+
+<img width="834" alt="Screenshot 2024-01-30 at 5 08 43 PM" src="https://github.com/Wu-Lab-DFCI-Harvard/bulkrhTCR_Script/assets/53489568/7a57bb36-825b-4691-be17-811ab1611823">
+<img width="834" alt="Screenshot 2024-01-30 at 5 09 01 PM" src="https://github.com/Wu-Lab-DFCI-Harvard/bulkrhTCR_Script/assets/53489568/c0b4c371-941a-4800-aa6e-70c4fdd9f098">
+
 
