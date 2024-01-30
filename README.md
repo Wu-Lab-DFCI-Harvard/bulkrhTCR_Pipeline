@@ -1,7 +1,6 @@
 # MIXCR Workflow
 
-<img width="999" alt="Screenshot 2024-01-30 at 4 39 38 PM" src="https://github.com/Wu-Lab-DFCI-Harvard/bulkrhTCR_Script/assets/53489568/5c22876a-5f76-4e58-a60d-ddde402bdd6c">
-
+<img width="1017" alt="Screenshot 2024-01-30 at 5 15 42 PM" src="https://github.com/Wu-Lab-DFCI-Harvard/bulkrhTCR_Script/assets/53489568/e2aa862c-29b5-4712-9515-8c07db6fa1de">
 
 ## Step 1. Running MiXCR 
 
