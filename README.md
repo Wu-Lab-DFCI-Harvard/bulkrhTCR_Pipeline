@@ -1,6 +1,9 @@
 # MIXCR Workflow
 
-Step 1 Running MiXCR 
+<img width="999" alt="Screenshot 2024-01-30 at 4 39 38 PM" src="https://github.com/Wu-Lab-DFCI-Harvard/bulkrhTCR_Script/assets/53489568/5c22876a-5f76-4e58-a60d-ddde402bdd6c">
+
+
+## Step 1. Running MiXCR 
 
 ```
 
@@ -22,7 +25,7 @@ mixcr analyze generic-amplicon-with-umi \
 
 ```
 
-Step 2 Filtering for non-functional CDR3 Sequence 
+## Step 2. Filtering for non-functional CDR3 Sequence 
 
 ```
 mixcr exportClones \
@@ -35,7 +38,7 @@ mixcr exportClones \
 
 ```
 
-Step 3 Generating consensus clonotypes for a biological sample  
+## Step 3. Generating consensus clonotypes for a biological sample  
 
 ```
 
