@@ -113,10 +113,16 @@ Columns: aaSeqCDR3, vGene, jGene, totalUMICount, Freq, Total_UMI_Over_Replicates
 <img width="1057" alt="Screenshot 2023-12-29 at 1 52 12 PM" src="https://github.com/Wu-Lab-DFCI-Harvard/bulkrhTCR_Script/assets/53489568/d4608d99-06ae-4365-817b-cefbce721f7b">
 
 
-# Visualization Script 
+# Visualize number of unique clonotypes for TRA and TRB vGenes
 
 ```
-Rscript visualize_clonotype_counts.R test_TRA_report.tsv test_TRB_report.tsv output_directory test
+Parameters
+
+arg1: TRA/TRB final reports
+arg2: output directory
+arg3: Sample Name 
+
+Rscript visualize_clonotype_counts.R TRA_report.tsv TRB_report.tsv output_directory test
 ```
 
 ## Output Examples 
