@@ -1,3 +1,54 @@
+# MIXCR Workflow
+
+Step 1 Running MiXCR 
+
+'''
+
+mixcr analyze generic-amplicon-with-umi \
+        --species hsa \
+        --assemble-clonotypes-by CDR3 \
+        --export-productive-clones-only \
+        --rna \
+        -f \
+        --tag-pattern '^(R1:*)\(UMI:N{7})(R2:*)' \
+        -Massemble.consensusAssemblerParameters=null \
+        -Massemble.cloneAssemblerParameters.addReadsCountOnClustering=true \
+        --floating-left-alignment-boundary \
+        --floating-right-alignment-boundary C \
+        R1_file \
+        R2_file \
+        out_dir \
+
+
+''' 
+
+Step 2 Filtering for non-functional CDR3 Sequence 
+
+'''
+mixcr exportClones \
+    --export-productive-clones-only \
+    --filter-stops \
+    --filter-out-of-frames \
+    -tagCounts \
+    Rep1.clns 
+    Rep1.tsv
+
+'''
+
+Step 3 Generating consensus clonotypes for a biological sample  
+
+'''
+
+mixcr exportClonesOverlap \
+    -tagCounts \ 
+    -vGene \
+    -jGene \ 
+    --criteria "CDR3|AA|V|J" \
+    Rep1.clns Rep2.clns Rep3.clns Rep4.clns \
+    final_TCR_report.tsv
+    
+'''
+
 # Post-Processing Script
 
 This is the post-processing script for bulkrhTCR protocol. 
