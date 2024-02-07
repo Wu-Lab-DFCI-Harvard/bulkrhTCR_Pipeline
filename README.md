@@ -21,23 +21,20 @@ mixcr analyze generic-amplicon-with-umi \
         R2_file \
         out_dir \
 
+```
 
 ```
 
-## Step 2. Filtering for non-functional CDR3 Sequence 
-
-```
-mixcr exportClones \
-    --export-productive-clones-only \
-    --filter-stops \
-    --filter-out-of-frames \
-    -tagCounts \
-    Rep1.clns 
-    Rep1.tsv
+Outputs (For each Replicate):
+Rep1_TRAD.tsv
+Rep1_TRB.tsv
+Rep1.clns 
+Rep1.vdjca
+Rep1.align/assemble/refine.txt
 
 ```
 
-## Step 3. Generating consensus clonotypes for a biological sample  
+## Step 2. Generating consensus clonotypes for a biological sample  
 
 ```
 
