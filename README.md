@@ -121,6 +121,5 @@ arg3: Sample Name
 Rscript visualize_clonotype_counts.R TRA_report.tsv TRB_report.tsv output_directory test
 ```
 
-## Output Examples 
 
 
