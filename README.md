@@ -121,6 +121,10 @@ arg4: Sample Name
 
 Rscript visualize_clonotype_counts.R TRA_report.tsv TRB_report.tsv output_directory test
 ```
+## Outputs 
+
+![11-C1D1_TRAV](https://github.com/Wu-Lab-DFCI-Harvard/bulkrhTCR_Script/assets/53489568/b7da34fc-246d-4bd0-b2ee-0294dd72a1c7)
+![11-C1D1_TRBV](https://github.com/Wu-Lab-DFCI-Harvard/bulkrhTCR_Script/assets/53489568/3b17f185-314b-4062-927e-faf6badcafa0)
 
 
 
