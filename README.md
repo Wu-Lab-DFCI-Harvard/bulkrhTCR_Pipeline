@@ -123,7 +123,4 @@ Rscript visualize_clonotype_counts.R TRA_report.tsv TRB_report.tsv output_direct
 
 ## Output Examples 
 
-<img width="834" alt="Screenshot 2024-01-30 at 5 08 43 PM" src="https://github.com/Wu-Lab-DFCI-Harvard/bulkrhTCR_Script/assets/53489568/7a57bb36-825b-4691-be17-811ab1611823">
-<img width="834" alt="Screenshot 2024-01-30 at 5 09 01 PM" src="https://github.com/Wu-Lab-DFCI-Harvard/bulkrhTCR_Script/assets/53489568/c0b4c371-941a-4800-aa6e-70c4fdd9f098">
-
 
