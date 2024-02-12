@@ -114,9 +114,10 @@ Columns: aaSeqCDR3, vGene, jGene, totalUMICount, Freq, Total_UMI_Over_Replicates
 ```
 Parameters
 
-arg1: TRA/TRB final reports
-arg2: output directory
-arg3: Sample Name 
+arg1: TRA final report
+arg2: TRB final report
+arg3: output directory
+arg4: Sample Name 
 
 Rscript visualize_clonotype_counts.R TRA_report.tsv TRB_report.tsv output_directory test
 ```
