@@ -5,6 +5,7 @@
 ## Downloading MiXCR 
 
 MiXCR Version Used: v4.4.2
+Please install 4.4.0 or greater. Functionalities in this script will not be available in MiXCR version lower than v4.4.0. 
 
 Pull MiXCR from the mixcr milaboratory repo
 > wget https://github.com/milaboratory/mixcr/releases/download/v4.4.2/mixcr-4.4.2.zip
