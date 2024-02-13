@@ -2,6 +2,29 @@
 
 <img width="1017" alt="Screenshot 2024-01-30 at 5 15 42 PM" src="https://github.com/Wu-Lab-DFCI-Harvard/bulkrhTCR_Script/assets/53489568/e2aa862c-29b5-4712-9515-8c07db6fa1de">
 
+## Downloading MiXCR 
+
+MiXCR Version Used: v4.4.2
+
+Pull MiXCR from the mixcr milaboratory repo
+> wget https://github.com/milaboratory/mixcr/releases/download/v4.4.2/mixcr-4.4.2.zip
+
+Unpack MiXCR Package
+> unzip mixcr-4.4.2.zip
+
+Check that MiXCR works 
+> ~/mixcr/mixcr -v
+
+LICENSING
+https://licensing.milaboratories.com 
+
+MiXCR License can be activated by,
+
+```
+1. mixcr activate-license `key`
+2. mi.license file with the `key` in the mixcr directory
+```
+
 ## Step 1. Running MiXCR 
 
 ```
