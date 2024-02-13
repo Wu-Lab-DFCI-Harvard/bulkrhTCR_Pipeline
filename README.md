@@ -30,7 +30,7 @@ Rep1_TRAD.tsv
 Rep1_TRB.tsv
 Rep1.clns 
 Rep1.vdjca
-Rep1.align/assemble/refine.txt
+Rep1.align.txt, Rep1.assemble.txt, Rep1.refine.txt
 
 ```
 
