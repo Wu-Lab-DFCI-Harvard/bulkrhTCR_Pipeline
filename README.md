@@ -16,21 +16,21 @@ Unpack MiXCR Package
 Check that MiXCR works 
 > ~/mixcr/mixcr -v
 
-LICENSING
-https://licensing.milaboratories.com 
+LICENSING Key can be obtained here: https://licensing.milaboratories.com 
 
 MiXCR License can be activated by,
 
-```
-1. mixcr activate-license `key`
-2. mi.license file with the `key` in the mixcr directory
-```
+> mixcr activate-license _**key**_
+
+or 
+
+mi.license file with the _**key**_ in the mixcr directory
+
 
 ## Step 1. Running MiXCR 
 
 ```
-
-mixcr analyze generic-amplicon-with-umi \
+> mixcr analyze generic-amplicon-with-umi \
         --species hsa \
         --assemble-clonotypes-by CDR3 \
         --export-productive-clones-only \
@@ -41,22 +41,19 @@ mixcr analyze generic-amplicon-with-umi \
         -Massemble.cloneAssemblerParameters.addReadsCountOnClustering=true \
         --floating-left-alignment-boundary \
         --floating-right-alignment-boundary C \
-        R1_file \
-        R2_file \
-        out_dir \
+        R1.fastq \
+        R2.fastq \
+        path/out_dir \
 
 ```
 
-```
 
-Outputs (For each Replicate):
-Rep1_TRAD.tsv
-Rep1_TRB.tsv
-Rep1.clns 
-Rep1.vdjca
-Rep1.align.txt, Rep1.assemble.txt, Rep1.refine.txt
 
-```
+
+Outputs (for each replicate):
+
+Rep1_TRAD.tsv, Rep1_TRB.tsv, Rep1.clns, Rep1.vdjca, Rep1.align.txt, Rep1.assemble.txt, Rep1.refine.txt
+
 
 ## Step 2. Generating consensus clonotypes for a biological sample  
 
